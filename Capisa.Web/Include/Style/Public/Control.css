@@ -1,0 +1,23 @@
+﻿/*
+* Fecha de creación:	13-Octubre-2014
+* Autor:				Carlos Valladolid
+*
+* Descripción:			Hoja de estilos para los controles del sitio Web público
+*/
+
+.MediumTextarea
+{
+	color: #222;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 14px;
+	height: 100px;
+	width: 300px;
+}
+
+.MediumTextbox
+{
+	color: #222;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 14px;
+	width: 200px;
+}

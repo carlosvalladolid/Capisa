@@ -1,0 +1,4 @@
+E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\bin\Capisa.Web.dll
+E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\bin\Capisa.Web.pdb
+E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.dll
+E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.pdb

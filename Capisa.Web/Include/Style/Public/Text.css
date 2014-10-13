@@ -1,0 +1,12 @@
+﻿/*
+* Fecha de creación:	13-Octubre-2014
+* Autor:				Carlos Valladolid
+*
+* Descripción:			Hoja de estilos para los textos del sitio Web público
+*/
+
+.RedText
+{
+	color: #f00;
+	font-size: 13px;
+}

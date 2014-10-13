@@ -1,0 +1,46 @@
+﻿/*
+* Fecha de creación:	13-Octubre-2014
+* Autor:				Carlos Valladolid
+*
+* Descripción:			Hoja de estilos para las pantallas del sitio Web público
+*/
+
+html, body, form
+{
+	background-color: #2C3137;
+	border: 0px;
+	color: #000;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 14px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#BodyDiv
+{
+	min-height: 500px;
+	width: 100%;
+}
+
+#FooterDiv
+{
+	background-color: #2C3137;
+	height: 170px;
+	text-align: center;
+    width: 100%;
+}
+
+#HeaderDiv
+{
+	background-color: #fff;
+    height: 175px;
+    width: 100%;
+}
+
+#MainDiv
+{
+	margin: auto;
+	width: 1000px;
+}

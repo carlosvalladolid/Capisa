@@ -52,6 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Include\Style\Public\Control.css" />
+    <Content Include="Include\Style\Public\Div.css" />
+    <Content Include="Include\Style\Public\Main.css" />
+    <Content Include="Include\Style\Public\Table.css" />
+    <Content Include="Include\Style\Public\Text.css" />
+    <Content Include="Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -64,6 +70,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Include\WebUserControl\Public.Master.cs">
+      <DependentUpon>Public.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Include\WebUserControl\Public.Master.designer.cs">
+      <DependentUpon>Public.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,10 +94,11 @@
     <Folder Include="Image\Icon\" />
     <Folder Include="Image\Logo\" />
     <Folder Include="Include\Javascript\" />
-    <Folder Include="Include\Style\" />
     <Folder Include="Include\Template\" />
-    <Folder Include="Include\WebUserControl\" />
     <Folder Include="Public\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Include\WebUserControl\Public.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

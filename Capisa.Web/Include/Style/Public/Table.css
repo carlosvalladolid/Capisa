@@ -1,0 +1,48 @@
+﻿/*
+* Fecha de creación:	13-Octubre-2014
+* Autor:				Carlos Valladolid
+*
+* Descripción:			Hoja de estilos para las tablas del sitio Web público
+*/
+
+.GeneralTable
+{
+	border: 0px;
+	border-spacing: 10px;
+}
+
+.GeneralTable .FieldTd
+{
+	width: 200px;
+}
+
+.GeneralTable .NameTd
+{
+	vertical-align: top;
+	width: 150px;
+}
+
+.GeneralTable .RequiredTd
+{
+	color: #f00;
+	font-size: 13px;
+	vertical-align: top;
+	width: 10px;
+}
+
+.GeneralTable .SpaceTd
+{
+	width: 10px;
+}
+
+.GeneralTable .TextTd
+{
+	font-weight: normal;
+	text-align: justify;
+}
+
+.GeneralTable .TitleTd
+{
+	font-weight: bold;
+	text-align: justify;
+}
