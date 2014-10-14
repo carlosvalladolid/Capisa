@@ -1,9 +1,9 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Public.master.cs" Inherits="Capisa.Web.Include.WebUserControl.Public" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Public.master.cs" Inherits="Capisa.Web.Include.Template.Public" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head runat="server">
+    <head id="Head1" runat="server">
         <title>Cabinas de Pintura</title>
 
         <meta name="description" content="Cabinas de Pintura" />
@@ -24,19 +24,29 @@
     <body>
         <form id="form1" runat="server">
             <div id="MainDiv">
-                <div id="HeaderDiv">
-                    
-                </div>
-
-                <div id="BodyDiv">
-                    <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
+                <!--<div class="LeftDiv">
                         
-                    </asp:ContentPlaceHolder>
-                </div>
+                </div>-->
 
-                <div id="FooterDiv">
+                <!--<div class="ContentDiv">-->
+                    <div id="HeaderDiv">
                     
-                </div>
+                    </div>
+
+                    <div id="BodyDiv">
+                        <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
+                            
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                    <div id="FooterDiv">
+                    
+                    </div>
+                <!--</div>-->
+
+                <!--<div class="RightDiv">
+                        
+                </div>-->
             </div>
         </form>
     </body>

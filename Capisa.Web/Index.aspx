@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Include/WebUserControl/Public.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Capisa.Web.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Include/Template/Public.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Capisa.Web.Index" %>
 
 <asp:Content ID="HeaderContent" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
     

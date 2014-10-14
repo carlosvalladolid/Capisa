@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Capisa.Web.Include.WebUserControl
+namespace Capisa.Web.Include.Template
 {
     public partial class Public : System.Web.UI.MasterPage
     {

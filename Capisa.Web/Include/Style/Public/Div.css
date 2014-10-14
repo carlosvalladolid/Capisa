@@ -5,7 +5,33 @@
 * Descripción:			Hoja de estilos para las divisiones del sitio Web público
 */
 
+.ContentDiv
+{
+	border: 1px solid #f00;
+	float:left;
+	height: 100%;
+	width: 1000px;
+}
 
+.LeftDiv
+{
+	background: url(/Image/Background/LeftPageBackground.jpg) right repeat-y;
+	border: 1px solid #fff;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	width: 326px;
+}
+
+.RightDiv
+{
+	background: url(/Image/Background/RightPageBackground.jpg) left no-repeat;
+	border: 1px solid #0f0;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	width: 326px;
+}
 
 
 

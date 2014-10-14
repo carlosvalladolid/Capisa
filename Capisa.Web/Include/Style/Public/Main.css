@@ -7,6 +7,7 @@
 
 html, body, form
 {
+	background: url(/Image/Background/PageBackground.jpg) center repeat-y;
 	background-color: #2C3137;
 	border: 0px;
 	color: #000;
@@ -20,23 +21,25 @@ html, body, form
 
 #BodyDiv
 {
+	background-color: #0ff;
 	min-height: 500px;
-	width: 100%;
+	width: 1000px;
 }
 
 #FooterDiv
 {
-	background-color: #2C3137;
+	background-color: #fff;
+	clear: both;
 	height: 170px;
 	text-align: center;
-    width: 100%;
+    width: 1000px;
 }
 
 #HeaderDiv
 {
 	background-color: #fff;
     height: 175px;
-    width: 100%;
+    width: 1000px;
 }
 
 #MainDiv
