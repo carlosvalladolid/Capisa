@@ -2,3 +2,7 @@ E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\bin\Capisa.Web.dll
 E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\bin\Capisa.Web.pdb
 E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.dll
 E:\Trabajo\Proyectos\Externos\Capisa\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.pdb
+D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\bin\Capisa.Web.dll
+D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\bin\Capisa.Web.pdb
+D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.dll
+D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.pdb
