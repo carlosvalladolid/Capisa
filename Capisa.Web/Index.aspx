@@ -5,5 +5,10 @@
 </asp:Content>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="BodyContentPlaceHolder" runat="server">
-    Hola Mundo!
+    <div class="BannerDiv">
+        <img src="/Image/Banner/FirstBanner.jpg" />
+    </div>
+
+    <br /><br />
+    <center>Próximamente...</center>
 </asp:Content>

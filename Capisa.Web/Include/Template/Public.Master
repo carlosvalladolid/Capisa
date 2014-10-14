@@ -24,29 +24,25 @@
     <body>
         <form id="form1" runat="server">
             <div id="MainDiv">
-                <!--<div class="LeftDiv">
+                <div id="HeaderDiv">
+                    <div class="LogoDiv"><img src="/Image/Logo/CapisaLogo.jpg" /></div>
+                    <div class="PhoneDiv"><img src="/Image/Icon/PhoneIcon.jpg" /></div>
+                    <div class="SloganDiv">Diseño, fabricación e instalación de cabinas de pintura líquida y en polvo</div>
+
+                    <div class="MenuDiv">
                         
-                </div>-->
-
-                <!--<div class="ContentDiv">-->
-                    <div id="HeaderDiv">
-                    
                     </div>
+                </div>
 
-                    <div id="BodyDiv">
-                        <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
+                <div id="BodyDiv">
+                    <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
                             
-                        </asp:ContentPlaceHolder>
-                    </div>
+                    </asp:ContentPlaceHolder>
+                </div>
 
-                    <div id="FooterDiv">
+                <div id="FooterDiv">
                     
-                    </div>
-                <!--</div>-->
-
-                <!--<div class="RightDiv">
-                        
-                </div>-->
+                </div>
             </div>
         </form>
     </body>

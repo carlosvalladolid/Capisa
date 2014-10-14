@@ -5,33 +5,35 @@
 * Descripción:			Hoja de estilos para las divisiones del sitio Web público
 */
 
-.ContentDiv
+#HeaderDiv .LogoDiv
 {
-	border: 1px solid #f00;
-	float:left;
-	height: 100%;
-	width: 1000px;
+	float: left;
+	padding: 25px 25px 15px 30px;
 }
 
-.LeftDiv
+#HeaderDiv .MenuDiv
 {
-	background: url(/Image/Background/LeftPageBackground.jpg) right repeat-y;
-	border: 1px solid #fff;
-	float: left;
-	height: 100%;
-	overflow: hidden;
-	width: 326px;
+	background: url(/Image/Background/MenuBackground.jpg) repeat-x;
+	height: 35px;
 }
 
-.RightDiv
+#HeaderDiv .PhoneDiv
 {
-	background: url(/Image/Background/RightPageBackground.jpg) left no-repeat;
-	border: 1px solid #0f0;
-	float: left;
-	height: 100%;
-	overflow: hidden;
-	width: 326px;
+	float:right;
+	height: 45px;
+	padding: 15px 25px 15px 0px;
+	width: 235px;
 }
+
+#HeaderDiv .SloganDiv
+{
+	clear: both;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 0px 0px 10px 20px;
+}
+
 
 
 

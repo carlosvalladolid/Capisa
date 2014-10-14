@@ -21,14 +21,14 @@ html, body, form
 
 #BodyDiv
 {
-	background-color: #0ff;
-	min-height: 500px;
+	background-color: #fff;
+	min-height: 950px;
 	width: 1000px;
 }
 
 #FooterDiv
 {
-	background-color: #fff;
+	background-color: #2C3137;
 	clear: both;
 	height: 170px;
 	text-align: center;
