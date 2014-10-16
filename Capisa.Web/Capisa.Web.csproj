@@ -52,6 +52,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Image\Background\LeftPageBackground.jpg" />
+    <Content Include="Image\Background\MenuBackground.jpg" />
+    <Content Include="Image\Background\PageBackground.jpg" />
+    <Content Include="Image\Background\RightPageBackground.jpg" />
+    <Content Include="Image\Banner\FirstBanner.jpg" />
+    <Content Include="Image\Button\CartButton.png" />
+    <Content Include="Image\Button\LiquidPaintButton.png" />
+    <Content Include="Image\Button\OvenButton.png" />
+    <Content Include="Image\Button\PartsButton.png" />
+    <Content Include="Image\Button\PowderButton.png" />
+    <Content Include="Image\Button\PromotionButton.png" />
+    <Content Include="Image\Icon\FacebookIcon.png" />
+    <Content Include="Image\Icon\GoogleIcon.png" />
+    <Content Include="Image\Icon\PhoneFooterIcon.jpg" />
+    <Content Include="Image\Icon\PhoneHeaderIcon.jpg" />
+    <Content Include="Image\Icon\SalesIcon.jpg" />
+    <Content Include="Image\Icon\TwitterIcon.png" />
+    <Content Include="Image\Logo\CapisaLogo.jpg" />
+    <Content Include="Image\Other\SeparatorOther.jpg" />
     <Content Include="Include\Style\Public\Control.css" />
     <Content Include="Include\Style\Public\Div.css" />
     <Content Include="Include\Style\Public\Main.css" />
@@ -88,11 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Image\Background\" />
-    <Folder Include="Image\Banner\" />
-    <Folder Include="Image\Button\" />
-    <Folder Include="Image\Icon\" />
-    <Folder Include="Image\Logo\" />
     <Folder Include="Include\Javascript\" />
     <Folder Include="Include\WebUserControl\" />
     <Folder Include="Public\" />
