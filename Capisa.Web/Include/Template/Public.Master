@@ -25,18 +25,18 @@
         <form id="form1" runat="server">
             <div id="MainDiv">
                 <div id="HeaderDiv">
-                    <div class="LogoDiv"><img src="/Image/Logo/CapisaLogo.jpg" /></div>
-                    <div class="PhoneDiv"><img src="/Image/Icon/PhoneHeaderIcon.jpg" /></div>
+                    <div class="LogoDiv"><img alt="Cabinas de Pinturas" src="/Image/Logo/CapisaLogo.jpg" /></div>
+                    <div class="PhoneDiv"><img alt="Teléfono" src="/Image/Icon/PhoneHeaderIcon.jpg" /></div>
                     <div class="SloganDiv">Diseño, fabricación e instalación de cabinas de pintura líquida y en polvo</div>
 
                     <div class="MenuDiv">
                         <table class="MenuTable">
                             <tr>
-                                <td class="Home">Inicio</td>
-                                <td class="Prodcut">Productos</td>
-                                <td class="Sale">Venta en línea</td>
-                                <td class="Company">Empresa</td>
-                                <td class="Contact">Contacto</td>
+                                <td class="Home"><a href="/Index.aspx">Inicio</a></td>
+                                <td class="Prodcut"><a href="/Public/Product.aspx">Productos</a></td>
+                                <td class="Gallery"><a href="/Public/Gallery.aspx">Galería</a></td>
+                                <td class="Company"><a href="/Public/Company.aspx">Empresa</a></td>
+                                <td class="Contact"><a href="/Public/Contact.aspx">Contacto</a></td>
                             </tr>
                         </table>
                     </div>
@@ -44,7 +44,7 @@
 
                 <div id="BodyDiv">
                     <asp:ContentPlaceHolder ID="BodyContentPlaceHolder" runat="server">
-                            
+                        
                     </asp:ContentPlaceHolder>
                 </div>
 

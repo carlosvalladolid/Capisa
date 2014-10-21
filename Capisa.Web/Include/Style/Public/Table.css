@@ -70,9 +70,14 @@
 .MenuTable
 {
 	border-spacing: 5px;
+	text-align: center;
+}
+
+.MenuTable a
+{
 	color: #fff;
 	font-size: 16px;
-	text-align: center;
+	text-decoration: none;
 }
 
 .MenuTable .Company
@@ -85,17 +90,17 @@
 	width: 125px;
 }
 
+.MenuTable .Gallery
+{
+	width: 125px;
+}
+
 .MenuTable .Home
 {
 	width: 125px;
 }
 
 .MenuTable .Prodcut
-{
-	width: 125px;
-}
-
-.MenuTable .Sale
 {
 	width: 125px;
 }
