@@ -5,6 +5,25 @@
 * Descripción:			Hoja de estilos para las divisiones del sitio Web público
 */
 
+#BodyDiv .CompanyTextDiv
+{
+    text-align:justify;
+    border: 2px, black;
+    position: fixed;
+    height: auto;
+    width: 920px;
+    padding-left: 5px;
+    position:relative;
+    left:40px;
+}
+
+#BodyDiv .CompanyTextDiv .BoldText
+{
+    color: Maroon;
+    text-align: center;
+    font-weight: bold;
+}
+
 #BodyDiv .MenuIconDiv
 {
 	background: url(/Image/Background/MenuBackground.jpg) repeat-x;
