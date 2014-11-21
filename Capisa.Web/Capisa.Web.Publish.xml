@@ -1,38 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
-  <publishProfile publishUrl="E:\Trabajo\Proyectos\Externos\Capisa\Publish\Capisa.Web\Capisa.Web v.1.0.1" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="E:\Trabajo\Proyectos\Externos\Capisa\Publish\Capisa.Web\Capisa.Web v.1.0.2" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="Image/Button/PartsButton.png" publishTime="10/16/2014 10:20:08" />
     <file relUrl="Global.asax" publishTime="10/10/2014 11:04:58" />
     <file relUrl="Image/Button/CartButton.png" publishTime="10/16/2014 08:39:13" />
     <file relUrl="Image/Background/PageBackground.jpg" publishTime="10/14/2014 14:04:13" />
     <file relUrl="Include/Template/Public.Master" publishTime="10/20/2014 09:29:59" />
+    <file relUrl="Image/Button/PowderButton.png" publishTime="10/16/2014 09:30:13" />
     <file relUrl="Image/Icon/PhoneFooterIcon.jpg" publishTime="10/16/2014 11:03:23" />
-    <file relUrl="Public/Company.aspx" publishTime="10/20/2014 09:38:00" />
     <file relUrl="Image/Other/SeparatorOther.jpg" publishTime="10/16/2014 08:51:24" />
-    <file relUrl="bin/Capisa.Web.dll" publishTime="10/20/2014 09:32:41" />
+    <file relUrl="bin/Capisa.Web.dll" publishTime="11/04/2014 10:33:53" />
     <file relUrl="Image/Icon/SalesIcon.jpg" publishTime="10/16/2014 11:01:04" />
     <file relUrl="Image/Button/OvenButton.png" publishTime="10/16/2014 10:20:39" />
-    <file relUrl="Public/Gallery.aspx" publishTime="10/20/2014 09:37:49" />
+    <file relUrl="Image/Banner/ProductBanner.jpg" publishTime="11/04/2014 10:10:31" />
     <file relUrl="Include/Style/Public/Main.css" publishTime="10/16/2014 09:23:58" />
     <file relUrl="Include/Style/Public/Control.css" publishTime="10/16/2014 11:36:42" />
+    <file relUrl="Image/Background/RightPageBackground.jpg" publishTime="10/14/2014 11:45:29" />
     <file relUrl="Include/Style/Public/Text.css" publishTime="10/13/2014 10:21:18" />
     <file relUrl="Image/Icon/PhoneHeaderIcon.jpg" publishTime="10/14/2014 16:44:16" />
+    <file relUrl="Image/Icon/LiquidPaintIcon.png" publishTime="11/04/2014 10:01:09" />
     <file relUrl="Public/Contact.aspx" publishTime="10/20/2014 09:38:10" />
     <file relUrl="Image/Background/MenuBackground.jpg" publishTime="10/14/2014 16:38:51" />
     <file relUrl="Image/Logo/CapisaLogo.jpg" publishTime="10/13/2014 10:30:59" />
     <file relUrl="Image/Icon/TwitterIcon.png" publishTime="10/16/2014 11:05:15" />
     <file relUrl="Image/Button/PromotionButton.png" publishTime="10/16/2014 08:54:21" />
-    <file relUrl="Public/Product.aspx" publishTime="10/20/2014 09:37:24" />
-    <file relUrl="Image/Background/RightPageBackground.jpg" publishTime="10/14/2014 11:45:29" />
-    <file relUrl="Include/Style/Public/Div.css" publishTime="10/16/2014 12:11:12" />
-    <file relUrl="Image/Icon/GoogleIcon.png" publishTime="10/16/2014 11:05:53" />
+    <file relUrl="Public/Product.aspx" publishTime="11/04/2014 10:22:59" />
+    <file relUrl="Public/Company.aspx" publishTime="10/24/2014 14:17:06" />
+    <file relUrl="Include/Style/Public/Div.css" publishTime="11/04/2014 10:26:17" />
+    <file relUrl="Include/Style/Public/Table.css" publishTime="10/20/2014 09:33:32" />
     <file relUrl="Image/Background/LeftPageBackground.jpg" publishTime="10/14/2014 11:45:21" />
     <file relUrl="Image/Button/LiquidPaintButton.png" publishTime="10/16/2014 09:26:08" />
     <file relUrl="Index.aspx" publishTime="10/16/2014 10:59:16" />
-    <file relUrl="Image/Button/PowderButton.png" publishTime="10/16/2014 09:30:13" />
+    <file relUrl="Public/Gallery.aspx" publishTime="10/20/2014 09:37:49" />
     <file relUrl="Image/Icon/FacebookIcon.png" publishTime="10/16/2014 11:05:08" />
-    <file relUrl="Include/Style/Public/Table.css" publishTime="10/20/2014 09:33:32" />
-    <file relUrl="bin/Capisa.Web.pdb" publishTime="10/20/2014 09:32:41" />
+    <file relUrl="Image/Icon/GoogleIcon.png" publishTime="10/16/2014 11:05:53" />
+    <file relUrl="bin/Capisa.Web.pdb" publishTime="11/04/2014 10:33:53" />
     <file relUrl="Web.config" publishTime="10/16/2014 11:41:03" />
     <file relUrl="Image/Banner/FirstBanner.jpg" publishTime="10/14/2014 16:51:50" />
   </publishProfile>

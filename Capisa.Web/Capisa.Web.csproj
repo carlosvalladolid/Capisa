@@ -57,6 +57,7 @@
     <Content Include="Image\Background\PageBackground.jpg" />
     <Content Include="Image\Background\RightPageBackground.jpg" />
     <Content Include="Image\Banner\FirstBanner.jpg" />
+    <Content Include="Image\Banner\ProductBanner.jpg" />
     <Content Include="Image\Button\CartButton.png" />
     <Content Include="Image\Button\LiquidPaintButton.png" />
     <Content Include="Image\Button\OvenButton.png" />
@@ -65,6 +66,7 @@
     <Content Include="Image\Button\PromotionButton.png" />
     <Content Include="Image\Icon\FacebookIcon.png" />
     <Content Include="Image\Icon\GoogleIcon.png" />
+    <Content Include="Image\Icon\LiquidPaintIcon.png" />
     <Content Include="Image\Icon\PhoneFooterIcon.jpg" />
     <Content Include="Image\Icon\PhoneHeaderIcon.jpg" />
     <Content Include="Image\Icon\SalesIcon.jpg" />
