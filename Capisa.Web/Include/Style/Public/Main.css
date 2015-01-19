@@ -1,13 +1,13 @@
 ﻿/*
-* Fecha de creación:	13-Octubre-2014
+* Fecha de creaci&oacute;n:	13-Octubre-2014
 * Autor:				Carlos Valladolid
 *
-* Descripción:			Hoja de estilos para las pantallas del sitio Web público
+* Descripci&oacute;n:			Hoja de estilos para las pantallas del sitio Web p&uacute;blico
 */
 
 html, body, form
 {
-	background: url(/Image/Background/PageBackground.jpg) center repeat-y;
+	background: url(../../../Image/Background/PageBackground.jpg) center repeat-y;
 	background-color: #2C3137;
 	border: 0px;
 	color: #000;

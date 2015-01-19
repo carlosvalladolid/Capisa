@@ -6,3 +6,8 @@ D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\bin\Capisa.Web.dll
 D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\bin\Capisa.Web.pdb
 D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.dll
 D:\Trabajo\Proyectos\CAPISA\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.pdb
+E:\Proyectos\CapisaSLN\Capisa.Web\bin\Capisa.Web.dll
+E:\Proyectos\CapisaSLN\Capisa.Web\bin\Capisa.Web.pdb
+E:\Proyectos\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.dll
+E:\Proyectos\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.pdb
+E:\Proyectos\CapisaSLN\Capisa.Web\obj\Debug\Capisa.Web.csprojResolveAssemblyReference.cache

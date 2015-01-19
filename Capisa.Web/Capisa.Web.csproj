@@ -59,11 +59,14 @@
     <Content Include="Image\Banner\FirstBanner.jpg" />
     <Content Include="Image\Banner\ProductBanner.jpg" />
     <Content Include="Image\Button\CartButton.png" />
+    <Content Include="Image\Button\enviar.png" />
+    <Content Include="Image\Button\limpiar.png" />
     <Content Include="Image\Button\LiquidPaintButton.png" />
     <Content Include="Image\Button\OvenButton.png" />
     <Content Include="Image\Button\PartsButton.png" />
     <Content Include="Image\Button\PowderButton.png" />
     <Content Include="Image\Button\PromotionButton.png" />
+    <Content Include="Image\Button\regresar.png" />
     <Content Include="Image\Icon\FacebookIcon.png" />
     <Content Include="Image\Icon\GoogleIcon.png" />
     <Content Include="Image\Icon\LiquidPaintIcon.png" />
@@ -73,6 +76,7 @@
     <Content Include="Image\Icon\TwitterIcon.png" />
     <Content Include="Image\Logo\CapisaLogo.jpg" />
     <Content Include="Image\Other\SeparatorOther.jpg" />
+    <Content Include="Include\Javascript\Formularios.js" />
     <Content Include="Include\Style\Public\Control.css" />
     <Content Include="Include\Style\Public\Div.css" />
     <Content Include="Include\Style\Public\Main.css" />
@@ -141,7 +145,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Include\Javascript\" />
     <Folder Include="Include\WebUserControl\" />
   </ItemGroup>
   <ItemGroup>

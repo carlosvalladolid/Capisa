@@ -1,8 +1,8 @@
 ﻿/*
-* Fecha de creación:	13-Octubre-2014
+* Fecha de creaci&oacute;n:	13-Octubre-2014
 * Autor:				Carlos Valladolid
 *
-* Descripción:			Hoja de estilos para las divisiones del sitio Web público
+* Descripci&oacute;n:			Hoja de estilos para las divisiones del sitio Web p&uacute;blico
 */
 
 #BodyDiv .CompanyTextDiv
@@ -78,7 +78,7 @@
 
 #BodyDiv .MenuIconDiv
 {
-	background: url(/Image/Background/MenuBackground.jpg) repeat-x;
+	background: url(../../../Image/Background/MenuBackground.jpg) repeat-x;
 	height: 35px;
 }
 
@@ -87,6 +87,48 @@
 	background-color: #ffcc00;
 	height: 200px;
 }
+
+.ContactDiv
+{
+	margin-left:50px;
+}
+
+#BodyDiv .ContactDiv .WrapTitleContact {
+	border: 2px solid #2BAF91;
+	float: left;
+	font-weight: bold;
+	height: 25px;
+	width: 137px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 18px;
+}
+
+#BodyDiv .ContactDiv .WrapTitleContactError {
+	border: 2px solid rgba(192, 12, 3, 1);
+	float: left;
+	font-weight: bold;
+	height: 25px;
+	width: 137px;
+	text-align: center;
+	padding-top: 6px;
+	font-size: 18px;
+}
+
+
+
+#BodyDiv .ContentDiv .Text {
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-top: 20px;
+	margin-left: 45px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+
+
 
 #FooterDiv .FacebookDiv
 {
@@ -129,7 +171,7 @@
 
 #HeaderDiv .MenuDiv
 {
-	background: url(/Image/Background/MenuBackground.jpg) repeat-x;
+	background: url(../../../Image/Background/MenuBackground.jpg) repeat-x;
 	height: 35px;
 }
 

@@ -1,12 +1,17 @@
 ﻿/*
-* Fecha de creación:	13-Octubre-2014
+* Fecha de creaci&oacute;n:	13-Octubre-2014
 * Autor:				Carlos Valladolid
 *
-* Descripción:			Hoja de estilos para los textos del sitio Web público
+* Descripci&oacute;n:			Hoja de estilos para los textos del sitio Web p&uacute;blico
 */
 
 .RedText
 {
 	color: #f00;
 	font-size: 13px;
+}
+
+#AvisosLabel
+{
+	color:red;
 }

@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="../../www.w3.org/1999/xhtml/index.html">
+
+<head id="Head1">
+    <title>Cabinas de Pintura</title>
+    <meta name="description" content="Cabinas de Pintura" />
+    <meta name="keywords" content="cabina, pintura, filtro, pistola, horno, colector" />
+    <meta name="author" content="iydsa" />
+
+    <link href="../Include/Style/Public/Control.css" rel="Stylesheet" type="text/css" />
+    <link href="../Include/Style/Public/Div.css" rel="Stylesheet" type="text/css" />
+    <link href="../Include/Style/Public/Main.css" rel="Stylesheet" type="text/css" />
+    <link href="../Include/Style/Public/Table.css" rel="Stylesheet" type="text/css" />
+    <link href="../Include/Style/Public/Text.css" rel="Stylesheet" type="text/css" />
+
+    <script src="../Include/Javascript/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="../Include/Javascript/jquery.noty.js" type="text/javascript"></script>
+    <script src="../Include/Javascript/top.js" type="text/javascript"></script>
+    <script src="../Include/Javascript/default.js" type="text/javascript"></script>
+    <script src="../Include/Javascript/Form.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <form method="post" action="../Include/PHP/Contact.php" id="form1">
+        <div id="MainDiv">
+            <div id="HeaderDiv">
+                <div class="LogoDiv"><img alt="Cabinas de Pinturas" src="../Image/Logo/CapisaLogo.jpg" /></div>
+                <div class="PhoneDiv"><img alt="Tel&eacute;fono" src="../Image/Icon/PhoneHeaderIcon.jpg" /></div>
+                <div class="SloganDiv">Diseño, fabricaci&oacute;n e instalaci&oacute;n de cabinas de pintura l&iacute;quida y en polvo</div>
+
+                <div class="MenuDiv">
+                    <table class="MenuTable">
+                        <tr>
+                            <td class="Home"><a href="../index-2.html">Inicio</a></td>
+                            <td class="Prodcut"><a href="Product.html">Productos</a></td>
+                            <td class="Gallery"><a href="Gallery.html">Galer&iacute;a</a></td>
+                            <td class="Company"><a href="Company.html">Empresa</a></td>
+                            <td class="Contact"><a href="Contact.html">Contacto</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="BodyDiv">
+                <br /><br /><br />
+                <div class="ContactDiv">
+                    <div class="WrapTitleContact">CONTACTO</div><br/><br/><br/>
+                    <div class="Text">Por favor llene el siguiente formulario al enviarnos sus comentarios<br/><br/></div>
+
+                    <table class="GeneralTable" cellspacing="5px">
+                        <tbody>
+                            <tr>
+                                <td class="FieldTd">Nombre:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="NameBox" type="text" maxlength="50" id="NameBox" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>    
+                                <td class="FieldTd">Empresa:</td>
+                                <td class="RequiredTd"></td>
+                                <td>
+                                    <input name="CompanyBox" type="text" maxlength="50" id="CompanyBox" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Correo Electr&oacute;nico:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="EmailBox" type="text" id="EmailBox" maxlength="40" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Tel&eacute;fono:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="PhoneBox" type="text" id="PhoneBox" maxlength="20" class="MediumTextbox" /> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Extensi&oacute;n:</td>
+                                <td class="RequiredTd"></td>
+                                <td>
+                                    <input name="ExteBox" type="text" id="ExteBox" maxlength="10" class="MediumTextbox" /> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Ciudad:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="CityBox" type="text" id="CityBox" maxlength="40" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Estado:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="EstateBox" type="text" id="EstateBox" maxlength="40" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Pa&iacute;s:</td>
+                                <td class="RequiredTd">*</td>
+                                <td>
+                                    <input name="CountryBox" type="text" id="CountryBox" maxlength="40" class="MediumTextbox" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="FieldTd">Comentarios:</td>
+                                <td class="RequiredTd"></td>
+                                <td>
+                                    <textarea name="CommentBox" rows="2" cols="20" id="CommentBox"  class="MediumTextarea" ></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"> 
+                                    <br/>
+                                    <span id="AvisosLabel"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/><br/>
+                    <div class="ButtonDiv">
+                        <table class="ButtonTable" cellspacing="20px">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type="image" id="btnImgSend" src="../Image/Button/enviar.png" onclick="return ValidateForm();"/>
+                                    </td>
+                                    <td>
+                                        <input type="image"id="btnLimpiar" src="../Image/Button/limpiar.png"/>
+                                    </td>
+                                    <td>
+                                        <input type="image" id="btnRegresar" src="../Image/Button/regresar.png" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div id="FooterDiv">
+                <table class="FooterTable">
+                    <tr>
+                        <td class="Cell"><img alt="Ventas" class="SalesFooterImage" src="../Image/Icon/SalesIcon.jpg" /></td>
+                        <td class="Cell"><img alt="Tel&eacute;fono" class="PhoneFooterImage" src="../Image/Icon/PhoneFooterIcon.jpg" /></td>
+                        <td class="Cell">
+                            <div class="FacebookDiv"><img alt="Facebook" src="../Image/Icon/FacebookIcon.png" /></div>
+                            <div class="TwitterDiv"><img alt="Twitter" src="../Image/Icon/TwitterIcon.png" /></div>
+                            <div class="GoogleDiv"><img alt="Google" src="../Image/Icon/GoogleIcon.png" /></div>
+
+                            <div class="SocialTextDiv">S&iacute;guenos en redes sociales</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Text" colspan="3">Todos los derechos reservados 2014 CAPISA, cabinas de pintura s.a. de c.v. Monterrey, Nuevo Le&oacute;n, M&eacute;xico</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
