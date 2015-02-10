@@ -5,8 +5,16 @@
 * Descripci&oacute;n:			Hoja de estilos para las divisiones del sitio Web p&uacute;blico
 */
 
+#BodyDiv .CompanyBannerDiv
+{
+    padding: 0px;
+    width: 843px;
+    float: right;
+}
+
 #BodyDiv .CompanyTextDiv
 {
+    clear: both;
     text-align:justify;
     border: 2px, black;
     position: fixed;
@@ -19,9 +27,11 @@
 
 #BodyDiv .CompanyTextDiv .BoldText
 {
-    color: Maroon;
-    text-align: center;
+    color: #0066CB;
+    font: Arial;
+    font-size: 20px;
     font-weight: bold;
+    text-align: left;
 }
 
 #BodyDiv .LeftDiv
@@ -74,6 +84,28 @@
 	margin-right: 10px;
 	padding: 10px 0px 0px 0px;
 	width: 655px;
+}
+
+#BodyDiv .RightFooterDiv
+{
+    border: 0px;
+	float: right;
+	width: 600px;
+}
+
+#BodyDiv .RightFooterDiv .IconDiv
+{
+	float: left;
+	width: 51px;
+}
+
+#BodyDiv .RightFooterDiv .TitleDiv
+{
+	border-bottom: 1px solid #FF9900;
+	float: right;
+	margin-right: 10px;
+	padding: 10px 0px 0px 0px;
+	width: 519px;
 }
 
 #BodyDiv .MenuIconDiv
