@@ -34,6 +34,13 @@
     text-align: left;
 }
 
+#BodyDiv .GalleryBannerDiv
+{
+    padding: 0px;
+    width: 914px;
+    float: right;
+}
+
 #BodyDiv .LeftDiv
 {
 	border: 0px;
