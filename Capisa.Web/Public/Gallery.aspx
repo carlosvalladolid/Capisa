@@ -1,17 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Include/Template/Public.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="Capisa.Web.Public.Gallery" %>
 
 <asp:Content ID="HeaderContent" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
-    <script src="/Include/Javascript/jquery-1.9.1.min.js" type="text/javascript"></script>    <link href="/Include/Style/Public/GalleryPhoto.css" rel="Stylesheet" type="text/css" />
-    <link href="/Include/Style/Public/jquery.ad-gallery.css" rel="Stylesheet" type="text/css" />    <script type="text/javascript" src="/Include/Javascript/jquery.ad-gallery.js"></script>
-<%--    <script language="javascript" type="text/javascript">
+    <script src="/Include/Javascript/jquery-1.9.1.min.js" type="text/javascript"></script>
+
+    <link href="/Include/Style/Public/GalleryPhoto.css" rel="Stylesheet" type="text/css" />
+    <link href="/Include/Style/Public/jquery.ad-gallery.css" rel="Stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/Include/Javascript/jquery.ad-gallery.js"></script>
+
+    <script language="javascript" type="text/javascript">
         $(function () {
             var galleries = $('.ad-gallery').adGallery();
         });
-
-        $(function () {
-            ShowMenu("GalleryDiv");
-        });
-    </script>--%>
+    </script>
 </asp:Content>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="BodyContentPlaceHolder" runat="server">
@@ -24,7 +25,9 @@
         </div>
     </div>
 
-    <%--<div id="gallery" class="ad-gallery">
+    <div class="SeparatorDiv"></div>
+
+    <div id="gallery" class="ad-gallery">
         <div class="ad-image-wrapper"></div>
 
         <div class="ad-controls"></div>
@@ -75,5 +78,5 @@
                 </ul>
             </div>
         </div>
-    </div>--%>
+    </div>
 </asp:Content>

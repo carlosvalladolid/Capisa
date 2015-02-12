@@ -115,6 +115,11 @@
 	width: 519px;
 }
 
+#BodyDiv .SeparatorDiv
+{
+    padding-top: 50px;
+}
+
 #BodyDiv .MenuIconDiv
 {
 	background: url(../../../Image/Background/MenuBackground.jpg) repeat-x;
