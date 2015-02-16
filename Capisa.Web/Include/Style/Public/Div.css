@@ -132,7 +132,14 @@
 	height: 200px;
 }
 
-.ContactDiv
+#BodyDiv .ContactBannerDiv
+{
+    padding: 0px;
+    width: 843px;
+    float: right;
+}
+
+#BodyDiv .ContactDiv
 {
 	margin-left:50px;
 }
