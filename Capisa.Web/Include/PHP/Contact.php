@@ -26,7 +26,7 @@ $mail->Password = 'iydsa01';
 $mail->Port = 25;
 
 $mail->SetFrom('Contacto@capisa.com', 'CAPISA');
-$mail->AddAddress("ruben.rodriguez.93@outlook.com");
+$mail->AddAddress("astrid_floresg@hotmail.com");
 $mail->AddAddress("carlos.valladolid@iydsa.com");
 $mail->AddAddress("ajsilvam@iydsa.com");
 
