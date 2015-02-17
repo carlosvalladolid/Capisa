@@ -67,6 +67,11 @@
 	text-align: justify;
 }
 
+.GeneralTable .SendButtonTd
+{
+   padding-left: 288px;
+}
+
 .MenuTable
 {
 	border-spacing: 5px;

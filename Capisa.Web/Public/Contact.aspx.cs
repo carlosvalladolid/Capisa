@@ -16,25 +16,25 @@ namespace Capisa.Web.Public
             
         }
 
-        protected void btnLimpiar_Click(object sender, ImageClickEventArgs e)
-        {
-            LimpiarControles(Page);
-        }
+        //protected void btnLimpiar_Click(object sender, ImageClickEventArgs e)
+        //{
+        //    //LimpiarControles(Page);
+        //}
 
-        public void LimpiarControles(Control c)
-        {
-            foreach (Control c1 in c.Controls)
-            {
-                if (c1.GetType() == typeof(TextBox))
-                {
-                    ((TextBox)c1).Text = "";
-                }
-                if (c1.HasControls())
-                {
-                    LimpiarControles(c1);
-                }
-            }
-        }
+        //public void LimpiarControles(Control c)
+        //{
+        //    foreach (Control c1 in c.Controls)
+        //    {
+        //        if (c1.GetType() == typeof(TextBox))
+        //        {
+        //            ((TextBox)c1).Text = "";
+        //        }
+        //        if (c1.HasControls())
+        //        {
+        //            LimpiarControles(c1);
+        //        }
+        //    }
+        //}
 
         string VerificarCampos()
         {
@@ -52,10 +52,10 @@ namespace Capisa.Web.Public
 
 
 
-        protected void btnRegresar_Click(object sender, ImageClickEventArgs e)
-        {
-            Response.Redirect("../Index.aspx");
-        }
+        //protected void btnRegresar_Click(object sender, ImageClickEventArgs e)
+        //{
+        //    Response.Redirect("../Index.aspx");
+        //}
 
         protected void btnImgSend_Click(object sender, ImageClickEventArgs e)
         {

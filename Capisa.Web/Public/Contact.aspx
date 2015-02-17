@@ -17,7 +17,7 @@
     <asp:ScriptManager ID="ScriptManager1" runat="server">
 
     </asp:ScriptManager>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
             <div class="ContactDiv" runat="server">
@@ -89,6 +89,18 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3"></td>
+                                </tr>
+                                <tr>
+                                    <td class="SendButtonTd" colspan="3">
+                                        <asp:ImageButton ID="ImageButton2" runat="server" 
+                                            ImageUrl="~/Image/Button/SendButton.jpg" onclick="btnImgSend_Click" />
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td colspan="3"> 
                                     <br/>
                                         <asp:Label ID="lblAvisos" ForeColor="Red" runat="server" Height="15px"></asp:Label>
@@ -97,13 +109,13 @@
                             </tbody>
                         </table>
                         <br/><br/>
-                        <div class="ButtonDiv">
+<%--                        <div class="ButtonDiv">
                             <table class="ButtonTable" cellspacing="20px">
                                 <tbody>
                                     <tr>
                                         <td>
                                             <asp:ImageButton ID="btnImgSend" runat="server" 
-                                                ImageUrl="~/Image/Button/enviar.png" onclick="btnImgSend_Click" />
+                                                ImageUrl="~/Image/Button/SendButton.jpg" onclick="btnImgSend_Click" />
                                         </td>
                                         <td>
                                             <asp:ImageButton ID="btnLimpiar" runat="server" 
@@ -116,7 +128,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div>--%>
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
