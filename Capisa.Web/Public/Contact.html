@@ -43,11 +43,17 @@
             </div>
 
             <div id="BodyDiv">
-                <br /><br /><br />
+    <div class="ContactBannerDiv"><img alt="" src="../Image/Banner/ContactBanner.jpg" /></div>
+    
+    <div class="RightDiv">
+        <div class="ProductTitleDiv">
+            <div class="IconDiv"><img alt="Pintura" src="../Image/Icon/MessageIcon.jpg" /></div>
+            <div class="TitleDiv">Contacto</div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <div class="ContactDiv">
-                    <div class="WrapTitleContact">CONTACTO</div><br/><br/><br/>
-                    <div class="Text">Por favor llene el siguiente formulario al enviarnos sus comentarios<br/><br/></div>
-
                     <table class="GeneralTable" cellspacing="5px">
                         <tbody>
                             <tr>
@@ -119,26 +125,26 @@
                                     <span id="AvisosLabel"></span>
                                 </td>
                             </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr>
+                                <td class="SendButtonTd" colspan="3">
+                                        <input type="image" id="btnImgSend" src="../Image/Button/SendButton.jpg" onclick="return ValidateForm();"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"> 
+                                <br/>
+                                    <asp:Label ID="lblAvisos" ForeColor="Red" runat="server" Height="15px"></asp:Label>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                     <br/><br/>
-                    <div class="ButtonDiv">
-                        <table class="ButtonTable" cellspacing="20px">
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <input type="image" id="btnImgSend" src="../Image/Button/enviar.png" onclick="return ValidateForm();"/>
-                                    </td>
-                                    <td>
-                                        <input type="image"id="btnLimpiar" src="../Image/Button/limpiar.png"/>
-                                    </td>
-                                    <td>
-                                        <input type="image" id="btnRegresar" src="../Image/Button/regresar.png" />
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
                 </div>
 
 
